@@ -28,40 +28,61 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown px-2 ">
+          <li class="nav-item dropdown px-1 ">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               الاستثمار
             </a>
           </li>
-          <li class="nav-item dropdown px-2">
+          <li class="nav-item dropdown px-1">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               التداول
             </a>
           </li>
-          <li class="nav-item dropdown px-2">
+          <li class="nav-item dropdown px-1">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               التمويل
             </a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-1">
             <a class="nav-link ">
               دراية سمارت
             </a>
           </li>
-          <li class="nav-item dropdown px-2">
+          <li class="nav-item dropdown px-1">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               الاخبار و المقالات
             </a>
           </li>
-          <li class="nav-item dropdown px-2 pe-5 ">
+          <li class="nav-item dropdown px-1  ">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               عن دراية
             </a>
           </li>
+          <div class="new d-flex mt-2">
+          <li class="nav-item  px-1 ">
+
+          <div class="search-icon ms-4 ">
+            <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #080808;"></i>         
+           </div>
+          </li>
+
+          <li class="nav-item  px-1 ">
+
+          <div class="purple-button mx-3" onclick="changeToPurple()"></div>
+
+        </li>
+        <li class="nav-item  px-1 ">
+
+          <div class="green-button me-3" onclick="changeToGreen()"></div>
+
+        </li>
+      </div>
+
         </ul>
 
 
         <form class="d-flex me-auto " role="search">
+          
           
           <button class="btn w-100 px-1 me-2 submit-btn" type="submit">فتح حساب جديد</button>
           <input class="form-control text-center " type="search" placeholder="تسجيل دخول" aria-label="Search">
@@ -71,21 +92,22 @@
     </div>
   </nav>
 
-  <div class="main-container container-fluid ">
-    <div class="row">
+  <div class="main-container container-fluid purple" id="changeToPurple">
+    <div class="row green" id="changeToGreen">
 
       <div class="col-md-8 py-4 px-5">
         <div class="text-wrapper py-5 px-5 ">
           <div class="first-row d-flex justify-content-between">
-            <div class="home-icon">HOME</div>
-            <div class="divider">|</div>
+
+            <i class="fa-solid fa-house " style="color: #c4c4cc;"></i>           
+              <div class="divider">|</div> 
             <h6>الاستثمار</h6>
             <div class="divider">|</div>
             <h6>سوبر ماركت الصناديق الاستثمارية</h6>
           </div>
 
           <div class="headline my-3">
-            <h1>
+            <h1 >
               سوبر ماركت الصناديق الاستثمارية
             </h1>
           </div>
@@ -96,6 +118,7 @@
         </div>
       </div>
       <div class="col-md-4">
+        
         <img src="./images/unsplash_coins.png" class="w-100 h-100 img-fluid coins-img" alt="">
       </div>
     </div>
@@ -134,7 +157,7 @@
     <div class="row text-center">
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <p class="card-text main-container">الحد الأدنى للاشتراك</p>
+          <p class="card-text main-container py-3">الحد الأدنى للاشتراك</p>
 
           <div class="card-body">
             <p class="card-text">5000</p>
@@ -145,7 +168,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <p class="card-text main-container">التقييم</p>
+          <p class="card-text main-container py-3">التقييم</p>
 
           <div class="card-body">
             <p class="card-text">يومي الاثنين و الخميس</p>
@@ -157,7 +180,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <p class="card-text main-container">درجة المخاطرة</p>
+          <p class="card-text main-container py-3">درجة المخاطرة</p>
 
           <div class="card-body mt-4 mb-3">
             <p class="card-text">مرتفع</p>

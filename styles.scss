@@ -53,7 +53,26 @@
         color: white;
 
     }
+    .purple-button{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #510B76;
+    }
+    .green-button{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #0B760F;
+    }
 
+}
+
+.green{
+    background-color: #0B760F;
+}
+.purple{
+    background-color: #510B76;
 }
 
 .main-container {
@@ -79,6 +98,7 @@
     .sec-headline {
         width: 60%;
     }
+    
 }
 
 .second-container {

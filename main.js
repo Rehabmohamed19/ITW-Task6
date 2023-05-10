@@ -351,4 +351,17 @@ card6Title2.classList.add("mt-3");
 cardText6.innerHTML= "بالإضافة إلى استقلاليتنا في دراية، فقد طورناالعديد من الآليات الحصرية التي تساعد المستثمر على تكوين محافظ متنوعة وعلى انتقاء المنتجات الأفضل."
 cardTextWrapper6.appendChild(cardText6);
 
+const Purple=document.getElementById("changeToPurple")
+const Green=document.getElementById("changeToGreen")
+
+function changeToGreen() {
+    Purple.classList.remove("purple")
+    Green.classList.add("green")    
+  }
+
+function changeToPurple() {
+    Green.classList.remove("green")
+    Purple.classList.add("purple")
+  }
+
 
