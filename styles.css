@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.grey-text {
+  color: #565666;
+}
+
+.navigation ul li a {
+  color: black;
+  font-weight: bolder;
+}
+.navigation .submit-btn {
+  background-color: #510B76;
+  color: white;
+  border-radius: 24px;
+  -webkit-border-radius: 60px;
+}
+.navigation .submit-btn {
+  animation: glowing 1900ms infinite;
+}
+@keyframes glowing {
+  0% {
+    background-color: #510B76;
+    box-shadow: 0 0 5px #dfec23;
+  }
+  50% {
+    background-color: #510B76;
+    box-shadow: 0 0 20px #dfec23;
+  }
+  100% {
+    background-color: #510B76;
+    box-shadow: 0 0 5px #dfec23;
+  }
+}
+.navigation input {
+  border: 1px solid #dedede;
+  border-radius: 24px;
+}
+.navigation .tog-wrapper {
+  background-color: #510B76;
+  color: white;
+}
+
+.main-container {
+  background-color: #510B76;
+  color: white;
+}
+.main-container .text-wrapper {
+  font-family: "Cairo", sans-serif;
+}
+.main-container .first-row {
+  width: 60%;
+}
+.main-container .coins-img {
+  margin-right: 12px;
+}
+.main-container .headline {
+  width: 60%;
+}
+.main-container .sec-headline {
+  width: 60%;
+}
+
+.second-container .img-holder {
+  position: relative;
+  display: block;
+}
+.second-container .main-img {
+  z-index: 3;
+}
+.second-container .back-img {
+  position: absolute;
+  top: 70%;
+  right: 62%;
+  z-index: 0;
+}
+.second-container .headline-wrapper {
+  width: 73%;
+}
+
+.mazaya-container .mazaya-text {
+  width: 63%;
+}
+
+.card-container .rounded-card {
+  border-radius: 30px;
+}
+.card-container .icon-wrapper {
+  width: 50%;
+  border-radius: 15px;
+  background-color: #FAF9F9;
+}
+.card-container .test1 {
+  font-weight: 500;
+}
+.card-container .test2 {
+  font-size: 16px;
+  color: #16151A;
+}
+
+.card-background {
+  background-color: #efebf2;
+}/*# sourceMappingURL=styles.css.map */
