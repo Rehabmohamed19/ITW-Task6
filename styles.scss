@@ -13,9 +13,16 @@
         font-weight: bolder;
 
     }
+    .submit-green{
+    background-color: #0B760F;
+
+    }
+    .submit-purple{
+        background-color: #510B76;
+    
+        }
 
     .submit-btn {
-        background-color: #510B76;
         color: white;
         border-radius: 24px;
         -webkit-border-radius: 60px;
@@ -28,17 +35,17 @@
 
     @keyframes glowing {
         0% {
-            background-color: #510B76;
+            // background-color: #510B76;
             box-shadow: 0 0 5px #dfec23;
         }
 
         50% {
-            background-color: #510B76;
+            // background-color: #510B76;
             box-shadow: 0 0 20px #dfec23;
         }
 
         100% {
-            background-color: #510B76;
+            // background-color: #510B76;
             box-shadow: 0 0 5px #dfec23;
         }
     }
@@ -68,12 +75,6 @@
 
 }
 
-.green{
-    background-color: #0B760F;
-}
-.purple{
-    background-color: #510B76;
-}
 
 .main-container {
     background-color: #510B76;
@@ -99,6 +100,12 @@
         width: 60%;
     }
     
+}
+.green{
+    background-color: #0B760F;
+}
+.purple{
+    background-color: #510B76;
 }
 
 .second-container {
@@ -151,5 +158,8 @@
 }
 
 .card-background{
+    // width: 50%;
+    // margin: 0 auto;
+    // border: 30px;
     background-color: #efebf2;
 }

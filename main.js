@@ -351,17 +351,29 @@ card6Title2.classList.add("mt-3");
 cardText6.innerHTML= "بالإضافة إلى استقلاليتنا في دراية، فقد طورناالعديد من الآليات الحصرية التي تساعد المستثمر على تكوين محافظ متنوعة وعلى انتقاء المنتجات الأفضل."
 cardTextWrapper6.appendChild(cardText6);
 
-const Purple=document.getElementById("changeToPurple")
-const Green=document.getElementById("changeToGreen")
+// const Purple=document.getElementById("changeToGreen")
+const green=document.querySelectorAll(".green")
+
+const purple=document.querySelectorAll(".purple")
+
+
+
+
 
 function changeToGreen() {
-    Purple.classList.remove("purple")
-    Green.classList.add("green")    
+  for (let i = 0; i < purple.length; i++) {
+    purple[i].classList.remove("purple")
+    purple[i].classList.add("green")  
+  }
+
   }
 
 function changeToPurple() {
-    Green.classList.remove("green")
-    Purple.classList.add("purple")
+  for (let a = 0; a < green.length; a++) {
+    green[a].classList.remove("green")
+    green[a].classList.add("purple")  
+  }
+
   }
 
 
