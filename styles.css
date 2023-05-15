@@ -122,6 +122,72 @@
   color: #16151A;
 }
 
-.card-background {
-  background-color: #efebf2;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  position: relative;
+}
+
+.modal {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 1.5rem;
+  position: fixed;
+  top: 18%;
+  right: 24%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.modal .flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.btn {
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.btn-open {
+  bottom: 150px;
+}
+
+.btn-close {
+  transform: translate(10px, -20px);
+  padding: 0.5rem 0.7rem;
+  background: #eee;
+  border-radius: 50%;
+  padding-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
